@@ -58,12 +58,12 @@ public class ApplicationController {
         return "welcome";
     }
 
-    @RequestMapping("/edit-user")
+    /*@RequestMapping("/edit-user")
     public String editUser(@RequestParam int id,HttpServletRequest request){
         Optional<User> user= userService.editMyUser(id);
         request.setAttribute("user",userService.editMyUser(id));
         request.setAttribute("mode","MODE_UPDATE");
         return "/welcome";
     }
-
+*/
 }

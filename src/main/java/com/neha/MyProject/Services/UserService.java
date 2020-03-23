@@ -40,9 +40,11 @@ public class UserService {
         userRepository.deleteById(id);
     }
 
+/*
     public Optional<User> editMyUser(int id){
        return userRepository.findById(id);
     }
+*/
 
 
 }
